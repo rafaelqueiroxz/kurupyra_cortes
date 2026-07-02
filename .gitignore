@@ -1,0 +1,14 @@
+.env
+*.mp4
+*.mov
+*.mkv
+
+podcasts_brutos/*
+!podcasts_brutos/.gitkeep
+
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+.vscode/

@@ -1,0 +1,25 @@
+# Kurupyra Cortes - dependencias Python
+#
+# IMPORTANTE (Windows + NVIDIA):
+# Instale o PyTorch CUDA ANTES deste arquivo usando install_windows_cuda.ps1.
+# Se instalar tudo direto pelo PyPI, o torch pode cair em CPU-only e travar o Whisper.
+
+openai-whisper>=20231117
+ffmpeg-python>=0.2.0
+requests>=2.31.0
+moviepy==1.0.3
+Pillow>=9.5.0
+numpy>=1.24.0
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.9
+google-api-python-client>=2.100.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.1
+pytz>=2024.1
+tqdm>=4.66.0
+
+# Modulo 2 (selecao de cortes via Gemini)
+# google-generativeai (SDK antigo) foi REMOVIDO: descontinuado pelo Google
+# em 30/11/2025. Usar o SDK novo abaixo.
+google-genai>=1.0.0
+python-dotenv>=1.0.0
